@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>站内搜索-精品国产剧</title>
+    <meta name="description" content="搜索国产视频、高清电影、热播榜单、地区、年份与类型，快速进入在线播放详情页。">
+    <meta name="keywords" content="国产视频,免费在线观看,高清电影大全,热播榜单,在线播放,视频资源,免费,电影片库,影片搜索,在线播放搜索">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="精品国产剧">
+            <span class="brand__mark">▶</span>
+            <span class="brand__text">
+                <strong>精品国产剧</strong>
+                <small>高清电影大全与热播榜单</small>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类</a>
+            <a href="ranking.html">排行榜</a>
+            <a href="search.html">搜索</a>
+        </nav>
+        <button class="mobile-toggle" type="button" aria-label="打开导航" data-mobile-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+    </nav>
+</header>
+<main class="page-main">
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <h1>站内搜索</h1>
+                <p>输入片名、地区、年份、类型或标签，快速筛选站内影视内容。</p>
+            </div>
+            <a href="categories.html">分类总览</a>
+        </div>
+        <div class="search-box">
+            <input id="search-input" type="search" placeholder="搜索片名、地区、类型、标签" aria-label="搜索影片">
+            <a class="btn btn--primary" href="ranking.html">热播榜单</a>
+        </div>
+        <p class="search-results-note" id="search-note"></p>
+        <div class="movie-grid" id="search-results"></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="site-footer__inner">
+        <section class="site-footer__brand">
+            <div class="footer-logo">精品国产剧</div>
+            <p>围绕国产电影等视频内容，提供免费在线观看服务，整合高清电影大全与实时热播榜单，便于用户根据流行趋势选择影片。</p>
+        </section>
+        <section class="footer-links">
+            <h2>快速导航</h2>
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类总览</a>
+            <a href="ranking.html">热播榜单</a>
+            <a href="search.html">站内搜索</a>
+        </section>
+        <section class="footer-links">
+            <h2>热门分类</h2>
+                <a href="category/featured.html">精选片库</a>
+                <a href="category/hot.html">热播专区</a>
+                <a href="category/hd-theater.html">高清剧场</a>
+                <a href="category/series-space.html">剧集空间</a>
+                <a href="category/movie-hall.html">电影大厅</a>
+        </section>
+    </div>
+    <div class="footer-copy">© 2026 精品国产剧 · 高清电影大全与热播榜单</div>
+</footer>
+    <script src="assets/js/search-data.js"></script>
+    <script src="assets/js/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

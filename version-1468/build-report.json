@@ -1,0 +1,21 @@
+{
+  "source_zip": "project-bolt-sb1-m7vr7tbb - 副本.zip",
+  "movie_records_parsed": 1985,
+  "detail_pages_generated": 1985,
+  "category_pages_generated": 10,
+  "category_counts": {
+    "热门剧集": 199,
+    "精选片单": 199,
+    "高清剧场": 199,
+    "都市情感": 199,
+    "悬疑动作": 199,
+    "古装奇幻": 198,
+    "喜剧生活": 198,
+    "亚洲剧场": 198,
+    "海外精选": 198,
+    "经典片库": 198
+  },
+  "html_pages_generated": 1999,
+  "m3u8_sources_used": 20,
+  "jpg_files_included": 0
+}
